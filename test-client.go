@@ -27,7 +27,6 @@ func main() {
 			for _, ip:= range iprecords{
 				fmt.Println(fileScanner.Text(),ip)
 			}
-        //fmt.Println(fileScanner.Text())
     }
 
     readFile.Close()
