@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-    readFile, err := os.Open("dg-test-domains.com")
+    readFile, err := os.Open("nxdomains.txt")
 
     if err != nil {
         fmt.Println(err)
